@@ -1,0 +1,57 @@
+<html>
+	<style>
+h1, h2, h3, h4, p, ul, ol, li {
+	font-family: Ubuntu;
+	}
+</style>
+	<head>
+		<title>Моя первая веб-страница</title>
+		  <style>
+    body {
+      background-color: #EEE8AA;
+    }
+  </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+	<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
+	</head>
+	<body>
+		<h1>Добро пожаловать на мою первую веб‑страницу!</h1>
+		<hr>
+		<h3><strong>Экспериментальный <abbr title="Использован шрифт Ubuntu">подзаголовок</abbr></strong></h3>
+		<p>Это код на языке <b>HTML</b>, <br>который я создал в программе <i>Notepad++</i></p>
+		<hr style="border: none; border-top: 4px dotted grey;">
+		<h3>Что купить в магазине:</h3>
+		<ol>
+			<li>Молоко.</li>
+				<ul>
+				<li><a href="https://www.moloko.by/" target="_blank">Поставский.</a></li>
+				<li><a href="https://lmz.by/" target="_blank">Ляховичок.</a></li>
+				<li><a href="https://www.savushkin.com/" target="_blank">Савушкин.</a></li>
+				</ul>
+				<figure>
+					<img src="https://ru.savushkin.com/upload/iblock/8ea/8ea4bad89eca8d3082ac5c192d5f1a45.jpg" data-fancybox="gallery" alt="Молоко «Савушкин»" style="margin-top: 10px;" title="Молоко «Савушкин»" width="600"/>
+					<br/>
+					<figcaption style="margin-top: 5px; margin-bottom: 10px; font-size: 14px; font-weight: bold;"> Линия производства молока ОАО «Савушкин продукт». </figcaption>
+				</figure>
+			<li>Кефир.</li>
+			<li>Сметана.</li>
+			<li>Сыр.</li>
+		</ol>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind('[data-fancybox]', {
+      });    
+    </script>
+	<h3>В каких магазинах покупать:</h3>
+		<ul>
+			<li><a href="https://yandex.by/maps/org/martsin/119942344152/?ll=27.505246%2C53.910532&source=serp_navig&z=17.24" target="_blank">Мартин.</a></li>
+			<li><a href="https://yandex.by/maps/org/yevroopt_market/1140122203/?from=api-maps&ll=27.502325%2C53.911202&utm_source=api-maps&z=14" target="_blank">Евроопт старый.</a></li>
+			<img src="https://www.evroopt.by/images/header/Logo.svg" data-fancybox="gallery" alt="Евроопт" style="margin-top: 20px; margin-bottom: 10px;" title="Евроопт" width="300"/>
+			<li><a href="https://yandex.by/maps/org/yevroopt_market/213897363550/?from=api-maps&ll=27.503862%2C53.914229&utm_source=api-maps&z=17" target="_blank">Евроопт новый.</a></li>
+			<li><a href="https://yandex.by/maps/org/santa/238326491064/?ll=27.508265%2C53.911036&source=serp_navig&z=17.24" target="_blank">Санта.</a></li>
+		</ul>
+		</body>
+</html>
